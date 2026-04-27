@@ -1,0 +1,35 @@
+/* Custom Background and Fonts */
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #0a192f; /* Dark Navy Blue */
+  color: #64ffda; /* Teal/Aquamarine - This is your "Additional Color" */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+  width: 100vw;
+  text-align: center;
+}
+
+.clock-wrapper {
+  padding: 3rem;
+  border: 2px solid #64ffda;
+  border-radius: 20px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.time {
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.date {
+  font-size: 1.5rem;
+  color: #8892b0; /* Slate Grey */
+}
